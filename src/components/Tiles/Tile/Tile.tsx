@@ -33,7 +33,7 @@ const Tile: FC<TileProps> = ({ row, data, zoom, onTileClick }) => {
         left: `${x}px`,
         top: `${y}px`,
         backgroundColor: `${data.bgColor ?? colors.defaultTile}`,
-        width: `${width}px`,
+        width: `${width || 50}px`,
         color: getTileTextColor(data.bgColor ?? "")
       }}
       onClick={() => onTileClick?.(data)}>
