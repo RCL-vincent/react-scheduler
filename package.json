@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RCL-vincent/react-scheduler"
+    "url": "git+https://github.com/RCL-vincent/react-scheduler.git"
   },
   "keywords": [
     "scheduler",
